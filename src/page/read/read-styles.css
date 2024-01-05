@@ -1,0 +1,80 @@
+.bill-center{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 400;
+    color: blue;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 25px;
+    gap: 30px;
+}
+/* .toky{
+    display:block;
+    font-size: 20px;
+    color: red;
+    text-align: center;
+    margin-bottom: 25%;
+} */
+.img-0{
+    width: 190px;
+    height: 190px;
+    animation: fade-in 0.6s ease-in forwards;
+    animation-delay: 1.5s;
+    opacity: 0;
+}
+.Young{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: red;
+    font-size: 25px;
+    animation: changeColor 2s infinite alternate;
+}
+@keyframes changeColor {
+    0% {
+        color: green;
+    }
+    100% {
+        color: white;
+    }
+}
+
+.Go1{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: green;
+}
+.Go{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.more{
+    text-align: center;
+    font-size: 250%;
+    font-weight: 800;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.flex-container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 25px;
+    gap: 30px;
+}
+.The {
+    text-align: center;
+
+}
+.advert1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    cursor: pointer;
+}

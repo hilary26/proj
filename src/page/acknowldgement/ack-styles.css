@@ -1,0 +1,12 @@
+.Ack {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 25px;
+    font-style: oblique;
+    font-family: 'Courier New', Courier, monospace;
+}
+.iuc {
+    text-align: center;
+    font-style: italic;
+    margin-top: 25px;
+}

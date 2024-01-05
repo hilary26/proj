@@ -1,0 +1,55 @@
+.Thanks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 25px;
+}
+.heading-primary{
+    font-size: 20px;
+    color: red;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+.Oluwa {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 25px;
+  
+  
+}
+.take{
+  height: 30vh;
+  width: 45vh;
+  cursor: pointer;
+}
+.give{
+  height: 30vh;
+  width: 45vh;
+  cursor: pointer;
+  
+}
+.giver {
+    height: 30vh;
+    width: 45vh;
+    cursor: pointer;
+}
+.ask{
+  height: 30vh;
+  width: 45vh;
+  cursor: pointer;
+}
+.we{
+    text-align: center;
+    font-style: italic;
+    margin-top: 15px;
+   
+}
+.price{
+    text-align: center;
+}
+
+
+

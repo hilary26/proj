@@ -1,0 +1,36 @@
+.inputDiv-to{
+    margin-top: 40px;
+	margin-bottom: 40px;
+}
+.label-text-to {
+	color: grey;
+	font-size: 17px;
+	display: block;
+	margin-bottom: 5px;
+}
+.rela-input-to1 {
+	width: 25%;
+	height: 30px;
+	border: none;
+	border-radius: 15px;
+	padding: 10px;
+    font-size: 20px;
+    margin-top: 15px;
+    background-color: pink;
+}
+.flexDiv {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 30px;
+    
+    
+}
+.order{
+    color: blue;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 200;
+    font-style: italic;
+
+}

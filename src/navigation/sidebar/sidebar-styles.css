@@ -1,0 +1,78 @@
+
+.container {
+    width: 250px;
+    padding: 0;
+    margin: 0;
+}
+.side_nav {
+    margin: 0;
+    padding: 0;
+    background-color: pink;
+    width: 26%;
+    position: relative;
+    height: 110vh;
+    transition:width 0.2s linear, left 0.6s ease;
+    transition: width 0.2s linear;
+    box-shadow: 9px 8px 13px 0 rgba(0, 0, 0, 0.06);
+}
+
+ul {
+    padding: 10px;
+    margin: 0;
+    list-style: none;
+}
+ul li {
+    list-style: none;
+}
+ul li ul li {
+    display: block;
+}
+ul li:hover ul li{
+    display: block;
+}
+.wall-side {
+    text-decoration: none;
+    position: relative;
+    display: table;
+    width: 230px;
+    padding: 30px;
+    
+}
+.wall-side:hover {
+    background-color: gold;
+    border-radius: 40px 0px 0px 40px;
+    width: 190px;
+    position: relative;
+}
+.logo{
+    text-align: left;
+    top: 0;
+    position: absolute;
+    transition: all 0.5s ease;
+}
+.logo-img {
+    width: 60px;
+    height: 47px;
+    margin-left: 30px;
+    margin-top: 60px;
+    border-radius: 50%;
+}
+.nav-item,
+.nav-item-1 {
+    top: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    color: black;
+    
+}
+.bottom {
+    width: 100%;
+    position: absolute;
+    margin-top: 40rem;
+}
+
+.side-link {
+    padding: 15px;
+    text-decoration: none;
+
+}

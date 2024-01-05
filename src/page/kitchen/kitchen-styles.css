@@ -1,0 +1,115 @@
+.slider-container {
+    width: 700px;
+    overflow: hidden;
+
+}
+.slider {
+    display: flex;
+    transition:  transform 1s ease-in-out;
+}
+.slide {
+    width: 300px;
+    flex-shrink: 0;
+}
+.slide:nth-child(1) {
+    animation: slideAnimation 12s infinite 3s;
+
+}
+.slide:nth-child(2) {
+    animation: slideAnimation 12s infinite 3s;
+}
+.slide:nth-child(3) {
+    animation: slideAnimation 12s infinite 6s;
+}
+@keyframes slideAnimation {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-300px);
+    }
+    50% {
+        transform: translateX(-600px);
+    }
+    75% {
+        transform: translateX(-900px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+.kit{
+    text-align: center;
+    color: blue;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.6rem;
+    padding: 1.6rem;
+  }
+  
+  .gallery-item {
+    overflow: hidden;
+    
+  }
+  
+  .gallery-item img {
+    display: block;
+    width: 40%;
+    height: 10%;
+    transition: all 0.4s;
+  }
+  
+  .gallery-item img:hover {
+    transform: scale(1.1);
+  }
+  .text{
+    color: green;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.flex-div{
+    display: flex;
+    margin-top: 40px;
+    gap: 20px;
+}
+.sell {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+.delivered-meals {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    margin-top: 8rem;
+  }
+  
+  .delivered-imgs {
+    display: flex;
+}
+  
+.delivered-imgs img {
+    height: 4.8rem;
+    width: 4.8rem;
+    border-radius: 50%;
+    margin-right: -1.6rem;
+    border: 3px solid #fdf2e9;
+}
+  
+.delivered-imgs img:last-child {
+    margin: 0;
+}
+  
+.delivered-text {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+  
+.delivered-text span {
+    color: #cf711f;
+    font-weight: 700;
+}
